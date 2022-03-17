@@ -404,6 +404,8 @@ ion-icon {
 
 .theme-toggle-wrapper figcaption {
 	padding: 0.2rem 0;
+	font-weight: normal;
+	font-size: 0.85rem;
 }
 
 .top_left_absolute {
