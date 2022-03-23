@@ -275,7 +275,7 @@ input + button {
 	grid-template-rows: repeat(auto-fit, minmax(1.2rem, 1fr));
 	grid-auto-flow: dense;
 	gap: 3rem;
-	margin: 2rem;
+	margin: 2rem 4rem;
 }
 
 section {

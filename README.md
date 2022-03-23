@@ -17,8 +17,10 @@ Here's some things I want to achieve:
 - [x] add a functional **light/dark mode;**
 - [x] use **setInterval()** to switch between their latest releases;
 - [x] give more attention to their hosted games releases, using the same model as above;
-- [ ] use CSS GRID to make it responsive and modernize its overall appearance => specially in their Our Games / Hosted Games page, where they list all their released games.
-  - **This is my current goal,** although I don't plan on adding all their games. (The page ourgames.html is a WIP)
+- [x] use CSS GRID to make it responsive and modernize its overall appearance => specially in their Our Games / Hosted Games page, where they list all their released games.
+- [ ] Refine pagination in the OurGames Page.
+- [ ] Create an OBJ with the games info for the homepage, to make the JS code drier.
+- [ ] Update screenshots.
 - [ ] Polish the interface, the CSS and the JS.
 
 I may add some extra features as I go, and/or revise some things as I get to learn more.
@@ -31,3 +33,4 @@ I may add some extra features as I go, and/or revise some things as I get to lea
 ## Changelog
 
 - 1.0 - Initial commit.
+- 2.0 - Refined grids and OurGames page. Added Event Listeners.
