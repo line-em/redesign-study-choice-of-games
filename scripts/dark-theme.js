@@ -1,6 +1,9 @@
 const themeToggle = document.querySelector('.theme-toggle input[type="checkbox"]');
-const themeToggleBox = document.querySelector(".theme-toggle-wrapper");
-const filter = document.querySelector(".search");
+const themeContainer = document.querySelector(".theme-toggle-wrapper");
+const hideTheme = document.querySelector("#hide-theme-toggle");
+const hideSearch = document.getElementById("hide-toggle");
+const searchElement = document.getElementById("hide-search-element");
+const ourgames = document.getElementById("ourgames");
 
 const userTheme =
 	localStorage.getItem("data-theme") ||
@@ -28,3 +31,12 @@ function openClose(x) {
 }
 
 themeToggle.addEventListener("change", switchTheme, false);
+
+if (ourgames) {
+	hideSearch.addEventListener("click", () => {
+		openClose(searchElement);
+	});
+}
+hideTheme.addEventListener("click", () => {
+	openClose(themeContainer);
+});
