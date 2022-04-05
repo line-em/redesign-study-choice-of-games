@@ -418,8 +418,13 @@ ion-icon {
 	margin-top: 0;
 	padding-top: 0;
 }
+
 .center {
 	text-align: center;
+}
+
+.disabled {
+	background-color: rgba(32, 32, 32, 0.644);
 }
 
 .padding_left {
@@ -517,6 +522,7 @@ input:checked + .slider:before {
 	.games-grid-wrapper {
 		grid-template-columns: repeat(auto-fill, minmax(26ch, 1fr));
 		gap: 1rem;
+		margin: 2rem;
 	}
 }
 
