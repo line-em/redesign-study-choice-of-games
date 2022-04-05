@@ -34,3 +34,5 @@ I may add some extra features as I go, and/or revise some things as I get to lea
 
 - 1.0 - Initial commit.
 - 2.0 - Refined grids and OurGames page. Added Event Listeners.
+- 3.0 - Refined the OurGames.js file, to make it drier.
+- 3.5 - Added About Us page.

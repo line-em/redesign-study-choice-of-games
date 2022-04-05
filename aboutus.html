@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Choice of Games LLC</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+   <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+   <!-- fixed content: header -->
+
+   <header>
+
+      <a href="./index.html"><img src="./images/logo.png" alt="Choice of Games Logo"></a>
+
+      <nav>
+         <ul>
+            <li class="disabled">About Us</li>
+            <li><a href="./ourgames.html">Our Games</a></li>
+            <li><a href="./hostedgames.html">Hosted Games</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="https://forum.choiceofgames.com">Forum</a></li>
+            <li><a href="./makeyourgame.html">Make Your Own Games</a></li>
+            <li><a href="./profile.html">Sign In</a></li>
+         </ul>
+      </nav>
+
+      <!-- fixed content: theme toggle -->
+
+      <div class="top_left_absolute toggle">
+         <a id="hide-theme-toggle">
+            <figure class="center">
+               <ion-icon name="close-circle-outline" size="large"></ion-icon>
+            </figure>
+         </a>
+         <div class="theme-toggle-wrapper">
+            <figure class="center">
+               <ion-icon name="sunny-outline"></ion-icon>
+               <figcaption>Light</figcaption>
+            </figure>
+
+            <label class="theme-toggle" for="checkbox">
+               <input type="checkbox" id="checkbox" />
+               <div class="slider round"></div>
+            </label>
+
+            <figure class="center">
+               <ion-icon name="moon-outline"></ion-icon>
+               <figcaption>Dark</figcaption>
+            </figure>
+         </div>
+      </div>
+
+   </header>
+
+   <!-- variable content -->
+
+   <main class="homepage">
+
+      <!-- our games feature-->
+
+      <section class="span">
+
+         <article class="separation no_top | flow">
+            <h2>About Us</h2>
+            <p>Choice of Games LLC is a California limited-liability company dedicated to producing high-quality, text-based, multiple-choice games. We produce games in house, beginning with <a href="http://www.choiceofgames.com/dragon/" target="_blank" rel="noopener noreferrer">Choice of the Dragon</a> and <a href="http://www.choiceofgames.com/broadsides/" target="_blank" rel="noopener noreferrer">Choice of Broadsides</a>. We have also developed a simple scripting language for writing text-based games, ChoiceScript, which we make available to others for use in their projects, and we host games produced by other designers using ChoiceScript on our website. Some of our games are available for <a href="http://www.choiceofgames.com/category/our-games/" target="_blank" rel="noopener noreferrer">free on the web.</a> We also produce mobile versions of our games that can be played on iPhones, Android phones, and other mobile devices.</p>
+
+            <p>We believe that text-based games are an underutilized format within modern computer games. Just as motion pictures, radio dramas, and television supplement books without rendering them obsolete, similarly modern graphic-based games cover only part of the computer gaming landscape. By using text, we can interact with the imagination in different ways from a graphics-based game. We can also allow game designers to quickly and inexpensively produce games in comparison with graphics-based games.</p>
+
+            <hr>
+
+            <p>If you are interested in developing games using ChoiceScript, we invite you to read our <a href="http://www.choiceofgames.com/make-your-own-games/choicescript-intro/" target="_blank" rel="noopener noreferrer">introductory guide to the ChoiceScript programming language.</a> If you have any questions, feel free to post them to our <a href="http://groups.google.com/group/choicescript" target="_blank" rel="noopener noreferrer">ChoiceScript Google group</a>, or check out <a href="http://www.choiceofgames.com/forum/" target="_blank" rel="noopener noreferrer">our forums.</a>
+            </p>
+
+            <p>Please also feel free to contact us at <em>support@choiceofgames.com</em>. We would be happy to answer questions about ChoiceScript and developing multiple choice games.</p>
+
+            <a href="https://www.choiceofgames.com/press/" target="_blank" rel="noopener noreferrer">Press Info</a>
+         </article>
+
+         <article class="center no_top | separation">
+            <h3>Links</h3>
+            <ul>
+               <li class="disabled">Why Multiple-Choice Games?</li>
+               <li class="disabled">Frequently Asked Questions</li>
+               <li class="disabled">Privacy Policy</li>
+            </ul>
+         </article>
+
+      </section>
+
+      <!-- fixed content: info -->
+
+      <section class="other_info span column">
+
+         <div class="separation">
+            <div class="newsletter brdr_radius">
+               <h3>
+                  <ion-icon name="mail-unread-outline"></ion-icon>
+                  Sign up for Our Newsletter
+               </h3>
+               <p>We'll email you when our next game is ready!</p>
+               <input type="email" name="" id="" class="brdr_radius" placeholder="your-email@provider.com"><button>
+                  <ion-icon name="paper-plane-outline"></ion-icon> Submit
+               </button>
+            </div>
+
+            <hr>
+
+            <h3>
+               <ion-icon name="document-text-outline"></ion-icon> We're Looking for Writers
+            </h3>
+            <p>Are you a writer? Want to be one? Try your hand at writing a piece of interactive fiction for us!</p>
+            <p class="center">
+               <ion-icon name="information-circle-outline"></ion-icon>
+               <a href="">learn more</a>
+            </p>
+
+         </div>
+
+         <div class="separation">
+            <h3>
+               <ion-icon name="book-outline"></ion-icon>
+               Vampire: The Masquerade
+            </h3>
+            <p>In partnership with World of Darkness and Paradox Interactive, we're proud to announce three games based on Vampire: The Masquerade!</p>
+            <p class="center">
+               <ion-icon name="information-circle-outline"></ion-icon>
+               <a href="">learn more</a>
+            </p>
+
+            <hr>
+
+            <h3>
+               <ion-icon name="share-social-outline"></ion-icon>
+               Reach out to us!
+            </h3>
+
+            <div class="column center">
+               <div>
+                  <ion-icon name="logo-facebook"></ion-icon>
+                  <a href="">Facebook</a>
+                  <br>
+                  <ion-icon name="logo-twitter"></ion-icon>
+                  <a href="">Twitter</a>
+               </div>
+
+               <div>
+                  <ion-icon name="logo-tumblr"></ion-icon>
+                  <a href="">Tumblr</a>
+                  <br>
+                  <ion-icon name="at-outline"></ion-icon>
+                  <a href="">Contact Us</a>
+               </div>
+            </div>
+
+         </div>
+
+      </section>
+      <footer>© Choice of Games LLC 2022 Privacy Policy</footer>
+   </main>
+
+   <!-- icons -->
+
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   <!-- scripts-->
+
+   <script src="./scripts/dark-theme.js"></script>
+</body>
+
+</html>
