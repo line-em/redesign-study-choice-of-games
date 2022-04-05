@@ -74,6 +74,8 @@ h3 {
 
 p {
 	padding: 0.2rem;
+	line-height: 1.8;
+	letter-spacing: 0.03rem;
 }
 
 a {
@@ -423,8 +425,10 @@ ion-icon {
 	text-align: center;
 }
 
-.disabled {
+li.disabled {
 	background-color: rgba(32, 32, 32, 0.644);
+	transform: translateY(0);
+	cursor: default;
 }
 
 .padding_left {
